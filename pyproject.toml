@@ -17,3 +17,4 @@ dependencies = [
 
 [project.scripts]
 listen-import = "music_discovery.listen_import:main"
+music-discover = "music_discovery.discover:main"

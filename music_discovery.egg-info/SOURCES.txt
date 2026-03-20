@@ -1,5 +1,6 @@
 pyproject.toml
 music_discovery/__init__.py
+music_discovery/discover.py
 music_discovery/listen_import.py
 music_discovery.egg-info/PKG-INFO
 music_discovery.egg-info/SOURCES.txt
