@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "music-discovery"
+version = "0.1.0"
+requires-python = ">=3.10"
+dependencies = [
+    "pylast",
+    "musicbrainzngs",
+    "requests",
+    "mutagen",
+    "rich",
+    "pyyaml",
+]
+
+[project.scripts]
+listen-import = "music_discovery.listen_import:main"

@@ -1,0 +1,6 @@
+pylast
+musicbrainzngs
+requests
+mutagen
+rich
+pyyaml

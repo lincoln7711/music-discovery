@@ -1,0 +1,2 @@
+[console_scripts]
+listen-import = music_discovery.listen_import:main
